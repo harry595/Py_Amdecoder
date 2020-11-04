@@ -134,7 +134,7 @@ def String_Pool(data):
     Make_String_List(data[String_Pool_StringStart:],String_Pool_String_Count)
 
  
-def main(file_name):
+def PyAmdecoder(file_name):
     sys.setrecursionlimit(10000)
     f=open(file_name,"rb")
     fdata = f.read()
@@ -144,8 +144,3 @@ def main(file_name):
     XML_Header_Size=lb(fdata[2:4])
     XML_Chunk_Size=lb(fdata[4:8])
     String_Pool(fdata[XML_Header_Size:])
-if __name__=='__main__':
-    try:
-        main(sys.argv[1])
-    except:
-        print("Py_Amdecoder <File name>")
