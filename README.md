@@ -51,4 +51,8 @@ output:
 			</intent-filter>
 		</activity>
 	</application>
+<<<<<<< HEAD
 </manifest>
+=======
+</manifest>
+>>>>>>> 0b563109d2d849ace168994d757862ea78e32581
