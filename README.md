@@ -1,13 +1,24 @@
 # Py_Amdecoder
+# - AndroidManifest.xml decoder -
+
+
+Pypi URL:
+https://pypi.org/project/PyAmdecoder/
 
 install:
+
+```sh
 pip install PyAmdecoder==0.0.2
+```
 
 usage: 
+```sh
 from Py_Amdecoder.PyAmdecoder import PyAmdecoder 
 PyAmdecoder("AndroidManifest_encode.xml")
+```
 
 output:
+```sh
 <?xml version="1.0" encoding="utf-8"?>
 <manifest 
 	xmlns:android="http://schemas.android.com/apk/res/android"
@@ -51,8 +62,5 @@ output:
 			</intent-filter>
 		</activity>
 	</application>
-<<<<<<< HEAD
 </manifest>
-=======
-</manifest>
->>>>>>> 0b563109d2d849ace168994d757862ea78e32581
+```
