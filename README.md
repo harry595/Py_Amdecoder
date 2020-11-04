@@ -1,5 +1,4 @@
 # Py_Amdecoder
-#
 # - AndroidManifest.xml decoder -
 
 
